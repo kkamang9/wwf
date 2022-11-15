@@ -6,29 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WWF KOREA</title>
 
+  <meta name="keywords" content="세계자연기금, wwf, 북극곰, 멸종위기동물, 어스아워, wwfkorea, 해양오염, 플라스틱문제, 환경오염"/>
+  <meta name="description" content="세계 최대 비영리 국제 자연보전기관, 생물다양성과 자연 서식지 보전, 기후위기 대응, 지속가능 금융, 지속가능한 비즈니스 및 시장 변화"/>
+
+  <!-- 오픈그래픽 -->
+  <meta property="og:title" content="WWF-KOREA"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="세계 최대 비영리 국제 자연보전기관 WWF 입니다.."/>
+  <meta property="og:image" content="/img/opengraphics.png"/>
+
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" type="image/x-icon" href="/img/main/favicon.png">
+
+
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
+  <div class="sip-nav">
+    <a href="#main">본문바로가기</a>
+  </div>
   <div id="header">
     <div class="inner">
       <h1 class="logo"><a href="#">WWF KOREA</a></h1>
       <div class="gnb">
         <h2 class="hidden">메인메뉴</h2>
-        <dl>
+        <dl class="gnb-tit">
           <dt>WWF소개</dt>
           <dd>이미지</dd>
           <dd>세계 최대 비영리 자연보전기관 WWF(세계자연기금, WORLD WIDE FUND FOR NATURE)</dd>
         </dl>
         <ul>
           <li class="depth1">
-            <a href="#">소개</a>
+            <a href="/sub/sub1-1.html">소개</a>
             <ul class="depth2">
-              <li><a href="#">기관소개</a></li>
-              <li><a href="#">연혁</a></li>
-              <li><a href="#">투명경영</a></li>
-              <li><a href="#">인재채용</a></li>
-              <li><a href="#">자원봉사</a></li>
+              <li><a href="/sub/sub1-1.html">기관소개</a></li>
+              <li><a href="/sub/sub1-1.html">연혁</a></li>
+              <li><a href="/sub/sub1-1.html">투명경영</a></li>
+              <li><a href="/sub/sub1-1.html">인재채용</a></li>
+              <li><a href="/sub/sub1-1.html">자원봉사</a></li>
             </ul>
           </li>
           <li class="depth1">
@@ -74,13 +91,16 @@
             </ul>
           </li>
         </ul>
+        <p class="gnb-bg"></p>
       </div>
       <div class="tnb">
         <ul class="tnb-menu">
           <li><a href="#">자주묻는 질문</a></li>
           <li><a href="#">마이페이지</a></li>
         </ul>
-        <a href="#">후원하기</a>
+        <div class="tnb-donate">
+          <a href="#">후원하기</a>
+        </div>
       </div>
     </div>
   </div>  
@@ -110,48 +130,38 @@
     </div>
     <div class="activity inner sec">
       <div class="sec-header">
-        <h3>참여활동</h3>
-        <p>WWF와 함께 지구를 위해 할 수 있는 실천 방법은 많이 있습니다.</p>
+        <h3 class="tit">참여활동</h3>
+        <p class="desc">WWF와 함께 지구를 위해 할 수 있는 실천 방법은 많이 있습니다.</p>
       </div>
-      <div class="activity-wrap">
-        <ul class="activity-box">
-          <li class="activity-list">
-            <a href="#" class="activity-list-">
-              <div class="activity-list-txt">
-                <p>26 Oct 2022</p>
-                <strong>전 세계 배출량의 약 10%에 달합니다.</strong>
-                <p>특히, 전체 생산되는 식량의 약 40%는 단 한 번도<br>먹지 않은 상태로 버려지고 있습니다.</p>
-              </div>
-              <p><img src="img/activity-chimney.png" alt="굴뚝"></p>
-              <a href="#">more</a>
-            </a>
-          </li>
-          <li class="activity-list">
-            <a href="#">
-              <div class="activity-list-txt">
-                <p>13 Oct 2022</p>
-                <strong>2억t(약 523조 개의 플라스틱 빨대)의<br>플라스틱 쓰레기를 생산합니다.</strong>
-                <p>이를 하나의 국가로 본다면, 세계에서 5번째로 큰 온실가스 배출원이 될 것입니다.</p>
-              </div>
-              <p><img src="img/activity-plastic.png" alt="플라스틱"></p>
-              <a href="#" class="more">moreview</a>
-            </a>
-          </li>
-          <li class="activity-list">
-            <a href="#">
-              <div class="activity-list-txt">
-                <p>15 Sep 2022</p>
-                <strong>약 2,700L의 물이 필요합니다.</strong>
-                <p>이는 한 사람이 900일 동안 식수로 마실 수 있는<br>양입니다.</p>
-              </div>
-              <p><img src="img/activity-water.png" alt="물방울"></p>
-              <a href="#">more</a>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="activity-wrap">
+        <li class="activity-list">
+          <div class="activity-list-box">
+            <h4><a href="#">전 세계 배출량의 약 10%에 달합니다.</a></h4>
+            <p><a href="#">특히, 전체 생산되는 식량의 약 40%는 단 한 번도 먹지 않은 상태로 버려지고 있습니다.</a></p>
+            <span>26 Oct 2022</span>
+          </div>
+          <a href="#" class="more">more</a>
+        </li>
+        <li class="activity-list">
+          <div class="activity-list-box">
+            <h4><a href="#">2억t(약 523조 개의 플라스틱 빨대)의 플라스틱 쓰레기를 생산합니다.</a></h4>
+            <p><a href="#">이를 하나의 국가로 본다면, 세계에서 5번째로 큰 온실가스 배출원이 될 것입니다.</a></p>
+            <span>13 Oct 2022</span>
+          </div>
+          <a href="#" class="more">more</a>
+        </li>
+        <li class="activity-list">
+          <div class="activity-list-box">
+            <h4><a href="#">약 2,700L의 물이 필요합니다.</a></h4>
+            <p><a href="#">이는 한 사람이 900일 동안 식수로 마실 수 있는 양입니다.</a></p>
+            <span>15 Sep 2022</span>
+          </div>
+          <a href="#" class="more">more</a>
+        </li>
+      </ul>
     </div>
   </div>  
+
   <div id="footer"></div>  
 
 
