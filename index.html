@@ -18,6 +18,9 @@
   <!-- 파비콘 -->
   <link rel="shortcut icon" type="image/x-icon" href="/img/main/favicon.png">
 
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 
@@ -104,7 +107,7 @@
   </div>  
   <div id="main">
     <h2 class="hidden">메인컨텐츠</h2>
-    <div class="swiper mySwiper visual">
+    <div class="swiper mySwiper1 visual">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <p><strong>LIVING</strong><em>PLANET</em>REPORT2022</p>
@@ -136,7 +139,7 @@
       </div>
       <div class="activity-tabmenu">
         <div class="activity-tabmenu1">
-          <strong class="activity-tabmenu-tit"><span>생활실천</span></strong>
+          <strong class="activity-tabmenu-btn"><span>생활실천</span></strong>
           <ul class="activity-tabmenu-box">
             <li class="activity-list">
               <h4><a href="#">전 세계 배출량의 약 10%에 달합니다.</a></h4>
@@ -159,7 +162,7 @@
           </ul>
         </div>
         <div class="activity-tabmenu2">
-          <strong class="activity-tabmenu-tit"><span>어스아워</span></strong>
+          <strong class="activity-tabmenu-btn"><span>어스아워</span></strong>
           <ul class="activity-tabmenu-box">
             <li class="activity-list">
               <h4><a href="#">소등</a></h4>
@@ -182,7 +185,7 @@
           </ul>
         </div>
         <div class="activity-tabmenu3">
-          <strong class="activity-tabmenu-tit"><span>생활실천</span></strong>
+          <strong class="activity-tabmenu-btn"><span>생활실천</span></strong>
           <ul class="activity-tabmenu-box">
             <li class="activity-list">
               <h4><a href="#">파트너십 연례보고서 2022</a></h4>
@@ -208,29 +211,272 @@
     </div>
     <div class="campaign sec">
       <div class="inner">
-        <div class="campaign-header">
+        <div class="sec-header">
           <h3 class="tit">캠페인</h3>
           <p class="desc">우리의 지구를 지키기 위한 WWF의 캠페인에 함께 해주세요.</p>
         </div>
-        <div class="campaign-hovermenu">
-          <div class="campaign-hovermenu1">
-            <div class="campaign-hovermenu-tit">
+        <ul class="campaign-hovermenu">
+          <li class="campaign-hovermenu1">
+            <a href="#" class="campaign-hovermenu-tit">
               <h4>북극곰 보호</h4>
               <p>북극곰의 위기는 곧 지구 전체의 위기입니다.</p>
-            </div>
-            <p><img src="/img/main/dolphin.png" alt=""></p>
+            </a>
+            <p><img src="/img/main/campaign-polarbear.png" alt=""></p>
+          </li>
+          <li class="campaign-hovermenu2">
+            <a href="#" class="campaign-hovermenu-tit">
+              <h4>기후 위기</h4>
+              <p>급속도로 진행되는 기후 변화, 여러분의 도움이 필요합니다.</p>
+            </a>
+            <p><img src="/img/main/campaign-exhaust.png" alt=""></p>
+          </li>
+          <li class="campaign-hovermenu3">
+            <a href="#" class="campaign-hovermenu-tit">
+              <h4>멸종위기동물 보호</h4>
+              <p>더 늦기 전에 멸종위기 동물들의 이야기에 귀 기울여주세요!</p>
+            </a>
+            <p><img src="/img/main/campaign-dolphin.png" alt=""></p>
+          </li>
+          <li class="campaign-hovermenu4">
+            <a href="#" class="campaign-hovermenu-tit">
+              <h4>플라스틱 프리</h4>
+              <p>우리가 사용한 플라스틱은 다음 세대에 영향을 미칠 것입니다.</p>
+            </a>
+            <p><img src="/img/main/campaign-plastic.png" alt=""></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="field inner sec">
+      <div class="sec-header">
+        <h3 class="tit">WWF활동분야</h3>
+        <p class="desc">WWF와 함께 지구를 위해 할 수 있는 실천 방법은 많이 있습니다.</p>
+      </div>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>CLIMATE & ENERGY</strong>
+              <span>기후·에너지</span>
+            </a>
           </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>OCEAN</strong>
+              <span>해양</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>WILDLIFE</strong>
+              <span>야생동물</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>FOOD</strong>
+              <span>식량</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>FRESHWATER</strong>
+              <span>담수</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <strong>FOREST</strong>
+              <span>산림</span>
+            </a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="together sec">
+      <div class="inner">
+        <div class="sec-header">
+          <h3 class="tit">TOGETHER POSSIBLE</h3>
+          <p class="desc">여러분의 작지만 큰 행동이 지구의 생태계에 큰 힘이 됩니다.</p>
+        </div>
+        <p class="together-desc">우리는 지구라는 행성에서 하나의 자연을 공유하며 살아갑니다.WWF의 활동에 힘을 보태주세요.</p>
+        <div class="together-btn">
+          <a href="#"><span>정기후원</span></a>
+          <a href="#"><span>파트너십 기업</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="news inner sec">
+      <div class="sec-header">
+        <h3 class="tit">WWF소식</h3>
+        <p class="desc">WWF의 다양한 활동과 판다메일을 만나보세요.</p>
+      </div>
+      <div class="news-wrap">
+        <div class="news-notice news-tabmenu">
+          <div class="news-notice-tabmenu1">
+            <span class="news-notice-tabmenu-btn">언론보도</span>
+            <div class="news-notice-tabmenu-content">
+              <strong>[입장문] WWF “COP27, 기후 재앙에 맞서는 돌파구 되어야”</strong>
+              <span>06 Nov 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>PACT 참여 9개 기업, 12억 개 일회용 플라스틱 제품 감축</strong>
+              <span>26 Oct 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>WWF, 전 세계 야생동물 개체군 1970년 이후 평균 69% 감소 발표</strong>
+              <span>13 Oct 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>WWF, 금융당국에 기후변화와 생물다양성 보전을 위한 강화된 정책 촉구</strong>
+              <span>15 Sep 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[보도자료] 홍정욱 올가니카 회장, WWF-Korea 신임 이사장 취임</strong>
+              <span>23 Aug 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[보도자료] 네팔 호랑이 수 두 배 증가…멸종위기종 보전 희망 보여줘</strong>
+              <span>29 Jul 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[보도자료] CoREi, “재생에너지 조달 현황 및 제도에 대한 기업의 인식” 설문조사 보고서 발간</strong>
+              <span>18 Jul 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[보도자료] WWF, 호랑이의 해 맞아 멸종위기종 보전 알리는 특별 전시 개최</strong>
+              <span>15 Jun 2022</span>
+            </div>
+          </div>
+          <div class="news-notice-tabmenu2">
+            <span class="news-notice-tabmenu-btn">최신소식</span>
+            <div class="news-notice-tabmenu-content">
+              <strong>지구, 같이 읽을까요?챌린지- 지구와 친해지는 7일</strong>
+              <span>15 Nov 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>WWF, 네이처 포지티브 경제와 사회를 위한 'IUCN 리더스포럼</strong>
+              <span>10 Nov 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[지구생명보고서2022 - 청소년을 위한 안내서]가 나왔습니다!</strong>
+              <span>03 Nov 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>지구생명보고서 2022를 보내드립니다! (기관/단체 대상)</strong>
+              <span>01 Nov 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>[입장문] WWF “국제 사회의 온실가스 감축 의지 여전히 부족”</strong>
+              <span>28 Oct 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022 플로킹런이 시작됩니다!</strong>
+              <span>14 Oct 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>WWF-은하수산, 자연보전을 위한 기부금 전달식 진행</strong>
+              <span>21 Sep 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>우크라이나 전쟁에 뜨거워지는 식물성 기름 가격</strong>
+              <span>17 Aug 2022</span>
+            </div>
+          </div>
+          <div class="news-notice-tabmenu3">
+            <span class="news-notice-tabmenu-btn">판다메일</span>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 11월 판다메일</strong>
+              <span>31 Oct 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 10월 판 다 메 일</strong>
+              <span>29 Sep 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 9월 판다메일</strong>
+              <span>05 Sep 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 8월 판다메일</strong>
+              <span>10 Aug 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 7월 판다메일</strong>
+              <span>20 Jul 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 6월 판다메일</strong>
+              <span>17 Jun 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 5월 판다메일</strong>
+              <span>24 May 2022</span>
+            </div>
+            <div class="news-notice-tabmenu-content">
+              <strong>2022년 4월 판다메일</strong>
+              <span>22 Apr 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="news-subscription">
+
         </div>
       </div>
     </div>
   </div>  
-  <div id="footer"></div>  
+  <div id="footer">
+    <div class="inner">
+      <h2 class="f-logo">WWF KOREA</h2>
+      <ul class="f-sns">
+        <li><a href="#">페이스북</a></li>
+        <li><a href="#">인스타그램</a></li>
+        <li><a href="#">트위터</a></li>
+        <li><a href="#">유튜브</a></li>
+      </ul>
+      <div class="f-copy">
+        <em>재단법인 한국세계자연기금</em>
+        <ul>
+          <li>대표자 홍정욱</li>
+          <li>고유번호 101-82-23485</li>
+          <li>주소<address>서울특별시 종로구 종로 47 (공평동) SC제일은행본점빌딩 15층 (재) 한국세계자연기금</address></li>
+          <li>대표전화 02-722-1601</li>
+          <li>후원 문의 members@wwfkorea.or.kr</li>
+          <li>기업 문의 partnership@wwfkorea.or.kr</li>
+          <li>보 및 마케팅 문의 marketing@wwfkorea.or.kr</li>
+          <li>기타 문의 info@wwfkorea.or.kr</li>
+        </ul>
+        <p class="f-copy-copy">© 2021 WWF - World Wide Fund For Nature (also known as World Wildlife Fund). Creative Commons licence.</p>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
+      observer: true,
+      observeParents: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      observer: true,
+      observeParents: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
