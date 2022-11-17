@@ -3,13 +3,20 @@
 /* MAINCOMMON - S */
 /* MAINCOMMON - E */
 
-/* HEADER - S */
-/* HEADER - E */
-
 /* MAIN - S */
 /* VISUAL - S */
+.visual{
+  width: 100%; height: 900px; min-width: 1280px;
+}
+.swiper-wrapper{
+  height: 900px;
+}
+.visual .swiper-wrapper > div{
+  width: 100%; height: 900px;
+}
+.visual .slide1{background-image: url(/img/main/visual-racoon.png);}
+.visual .slide2{background-image: url(/img/main/visual-plokkingrun.png);}
+.visual .slide3{background-image: url(/img/main/visual-polarbear.png);}
+
 /* VISUAL - E */
 /* MAIN - E */
-
-/* FOOTER - S */
-/* FOOTER - E */

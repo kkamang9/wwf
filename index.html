@@ -16,16 +16,17 @@
   <meta property="og:image" content="/img/opengraphics.png"/>
 
   <!-- 파비콘 -->
-  <link rel="shortcut icon" type="image/x-icon" href="/img/main/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/common/favicon.png">
 
   <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/common.css">
   <link rel="stylesheet" href="/css/main.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
-  <div class="sip-nav">
+  <div class="skip-nav">
     <a href="#main">본문바로가기</a>
   </div>
   <div id="header">
@@ -34,9 +35,9 @@
       <div class="gnb">
         <h2 class="hidden">메인메뉴</h2>
         <dl class="gnb-tit">
-          <dt>WWF소개</dt>
+          <dt>GREEN TIP!</dt>
           <dd>이미지</dd>
-          <dd>세계 최대 비영리 자연보전기관 WWF(세계자연기금, WORLD WIDE FUND FOR NATURE)</dd>
+          <dd>소중한 지구를 지키는 많은 방법들</dd>
         </dl>
         <ul>
           <li class="depth1">
@@ -88,7 +89,7 @@
             <a href="#">후원</a>
             <ul class="depth2">
               <li><a href="#">북극곰보호</a></li>
-              <li><a href="#">후웡안내</a></li>
+              <li><a href="#">후원안내</a></li>
             </ul>
           </li>
         </ul>
@@ -109,19 +110,19 @@
     <h2 class="hidden">메인컨텐츠</h2>
     <div class="swiper mySwiper1 visual">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide slide1">
           <p><strong>LIVING</strong><em>PLANET</em>REPORT2022</p>
           <p>전 세계 야생동물 개체군 1970년 이후 평균 69% 감소</p>
           <p>지구생명보고서 2022 발간소식</p>
           <a href="#">MORE</a>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide slide2">
           <p>2022<strong>PLOKKING</strong><em>RUN</em></p>
           <p>다양한 동물 종이 사라진다는 건 우리의 '지구'를 잃는다는 것 작은 실천부터 함께 시작해요.</p>
           <p>WWF와 함께하는 플로킹런 참가하기</p>
           <a href="#">MORE</a>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide slide3">
           <p><strong>FUTURE</strong>BUILDING</p>
           <p>IN WHICH PEOPLE LIVE IN HARMONY WITH NATURE</p>
           <p><strong>WWF</strong>와 함께 만드는<br>사람과 자연이 조화로운 <strong>미래</strong></p>
@@ -478,7 +479,6 @@
       observer: true,
       observeParents: true,
       pagination: {
-        el: ".swiper-pagination",
         clickable: true,
       },
       navigation: {
