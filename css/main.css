@@ -1,22 +1,135 @@
 @charset "UTF-8";
 
 /* MAINCOMMON - S */
+.sec{
+  padding: 100px 0;
+}
+.sec-header{}
+.sec-header .tit{font-weight: 500; font-size: 50px; line-height: 60px; color: #111;}
+.sec-header .desc{
+  font-weight: 100; font-size: 16px; line-height: 24px; color: #777;
+  margin-bottom: 50px;
+}
 /* MAINCOMMON - E */
 
 /* MAIN - S */
 /* VISUAL - S */
 .visual{
   width: 100%; height: 900px; min-width: 1280px;
+  background-color: #000;
 }
-.swiper-wrapper{
+.visual .swiper-slide{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.visual .swiper-slide .bg{
   height: 900px;
+  background-color: rgba(0,0,0,0.1);
 }
-.visual .swiper-wrapper > div{
-  width: 100%; height: 900px;
+.visual .swiper-slide .inner{
+  width: 1170px;
+  padding: 250px 0 0 110px;
+  color: #fff;
+}
+.visual .swiper-slide a{
+  display: block;
+  width: 150px; height: 50px;
+  line-height: 50px; color: #fff; text-align: center;
+  background-color: #f90;
+}
+.visual .swiper-slide .inner > strong{font-weight: 900; font-size: 120px;}
+.visual .swiper-slide .inner > span{font-weight: 400; font-size: 60px;}
+.visual .swiper-slide .inner > p{font-weight: 300; font-size: 20px;}
+.visual .swiper-slide .inner > em{
+  display: block;
+  margin-bottom: 30px;
+  font-weight: 700; font-size: 48px;
 }
 .visual .slide1{background-image: url(/img/main/visual-racoon.png);}
+.visual .slide1 strong{
+  display: block;
+  margin-bottom: -10px;
+}
+.visual .slide1 strong span{font-weight: 700; font-size: 90px;}
+.visual .slide1 .inner > span{
+  display: block;
+  margin-bottom: 90px;
+}
 .visual .slide2{background-image: url(/img/main/visual-plokkingrun.png);}
+.visual .slide2 .inner > span{
+  display: block;
+  margin: -20px 0 -5px;
+}
+.visual .slide2 strong{
+  display: block;
+  width: 760px;
+  margin-bottom: 70px;
+  line-height: 90px;
+}
+.visual .slide2 strong span{
+  float: right;
+  font-size: 100px;
+}
 .visual .slide3{background-image: url(/img/main/visual-polarbear.png);}
-
+.visual .slide3 strong{
+  line-height: 70px;
+}
+.visual .slide3 strong span{
+  display: block;
+  font-size: 80px;
+}
+.visual .slide3 p{
+  margin-bottom: 90px;
+}
+.visual .slide3 em span{
+  font-size: 40px;
+}
 /* VISUAL - E */
+/* ACTIVITY - S */
+.activity{}
+.activity-tabmenu{}
+.activity-tabmenu-box li{
+  float: left;
+  width: 410px; height: 500px;
+  line-height: 30px;
+  position: relative;
+}
+.activity-tabmenu-box li h4{
+  font-weight: 500; font-size: 24px; color: #333;
+}
+.activity-tabmenu-box li h4:before{content: "";
+  display: block;
+  width: 410px; height: 230px;
+  margin-bottom: 70px;
+}
+.activity-tabmenu-box li p{
+  font-weight: 300; font-size: 18px; color: #333;
+}
+.activity-tabmenu-box li span{
+  font-weight: 100; font-size: 14px; line-height: 20px; color: #777;
+  position: absolute; left: 30px; top: 260px;
+}
+.activity-tabmenu-box li > a{
+  font-weight: 100; font-size: 14px; line-height: 20px; color: #999;
+}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) h4:before{background-image: url(/img/main/activity-chimney.png);}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(2) h4:before{background-image: url(/img/main/activity-plastic.png);}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(3) h4:before{background-image: url(/img/main/activity-water.png);}
+.activity-tabmenu1{}
+.activity-tabmenu1 .activity-tabmenu-btn{}
+.activity-tabmenu1 .activity-tabmenu-box{}
+.activity-tabmenu1 .activity-tabmenu-box li{}
+.activity-tabmenu1 .activity-tabmenu-box li h4{}
+.activity-tabmenu1 .activity-tabmenu-box li h4 a{}
+.activity-tabmenu1 .activity-tabmenu-box li p{}
+.activity-tabmenu1 .activity-tabmenu-box li p a{}
+.activity-tabmenu1 .activity-tabmenu-box li > a{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1){}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) h4{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) p{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) span{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) > a{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(2){}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(3){}
+/* ACTIVITY - E */
 /* MAIN - E */

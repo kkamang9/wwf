@@ -109,10 +109,10 @@ img {vertical-align: top;}
 .gnb:hover .depth1 .depth2{display: block;}
 .gnb:hover .gnb-bg{display: block;}
 .gnb:hover .gnb-tit{display: block;}
-.gnb:hover ~ .tnb{color: #999;}
 .gnb .depth1:hover a:after{opacity: 1;}
 .gnb .depth1 a:hover{color: #f90;}
 .gnb .depth2 a:hover{color: #f90;}
+.gnb:hover ~ .tnb{color: #999;}
 
 .tnb{
   float: right;
