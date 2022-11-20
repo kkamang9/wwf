@@ -25,6 +25,7 @@
 .visual .swiper-slide .bg{
   height: 900px;
   background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.1);
 }
 .visual .swiper-slide .inner{
   width: 1170px;
@@ -141,6 +142,19 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+.activity{}
+.activity-tabmenu{}
+.activity-tabmenu-box li h4{
+  font-weight: 500; font-size: 24px; color: #333;
+}
+/* .activity-tabmenu-box li h4:before{content: "";
+  display: block;
+  width: 410px; height: 230px;
+  margin-bottom: 70px;
+} */
+.activity-tabmenu-box li p{
+  font-weight: 300; font-size: 18px; color: #333;
+}
 .activity-tabmenu-box li span{
   font-weight: 100; font-size: 14px; line-height: 20px; color: #777;
   position: absolute; left: 30px; top: 260px;
@@ -206,4 +220,24 @@
 } */
 .campaign-hovermenu li > p{}
 /* CAMPAIGN - E */
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) h4:before{background-image: url(/img/main/activity-chimney.png);}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(2) h4:before{background-image: url(/img/main/activity-plastic.png);}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(3) h4:before{background-image: url(/img/main/activity-water.png);}
+.activity-tabmenu1{}
+.activity-tabmenu1 .activity-tabmenu-btn{}
+.activity-tabmenu1 .activity-tabmenu-box{}
+.activity-tabmenu1 .activity-tabmenu-box li{}
+.activity-tabmenu1 .activity-tabmenu-box li h4{}
+.activity-tabmenu1 .activity-tabmenu-box li h4 a{}
+.activity-tabmenu1 .activity-tabmenu-box li p{}
+.activity-tabmenu1 .activity-tabmenu-box li p a{}
+.activity-tabmenu1 .activity-tabmenu-box li > a{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1){}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) h4{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) p{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) span{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(1) > a{}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(2){}
+.activity-tabmenu1 .activity-tabmenu-box li:nth-child(3){}
+/* ACTIVITY - E */
 /* MAIN - E */
