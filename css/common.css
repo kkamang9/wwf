@@ -19,7 +19,6 @@
 body{font: 18px/ 1 'Noto Sans KR', sans-serif, '돋움', dotum, AppleGothic, sans-serif; color: #555; letter-spacing: -1px;}
 a{text-decoration: none; color: inherit;}
 img {vertical-align: top;}
-.skip-nav {}
 .skip-nav a {
   width: 100%; height: 50px;
   background-color: #555;
@@ -36,7 +35,7 @@ img {vertical-align: top;}
   width: 100%; height: 80px;
   text-align: center;
   background-color: rgba(0,0,0,0.2);
-  position: fixed; left: 0; top: 0; z-index: 10;
+  position: absolute; left: 0; top: 0; z-index: 10;
 }
 .logo{
   float: left;
@@ -45,7 +44,7 @@ img {vertical-align: top;}
 }
 .logo a{
   display: block;
-  width: 110px; height: 120px;
+  width: 100%; height: 120px;
   text-indent: -9999px;
   background: url(/img/common/logo.png);
 }
@@ -70,7 +69,6 @@ img {vertical-align: top;}
   text-indent: -9999px;
   background-image: url(/img/common/greenbean.png);
 }
-.gnb-tit dd:nth-of-type(2){}
 .gnb ul{
   position: relative; z-index: 10;
 }
@@ -95,7 +93,6 @@ img {vertical-align: top;}
   height: 260px;
   padding-top: 30px;
 }
-.gnb .depth2 li{}
 .gnb .depth2 a{
   font-size: 16px; line-height: 35px; color: #777;
 }
@@ -135,7 +132,6 @@ img {vertical-align: top;}
 .tnb .tnb-login li+li{
   display: none;
 }
-.tnb .tnb-login li a{}
 .tnb .tnb-donate{
   float: left;
   width: 90px; height: 50px;
