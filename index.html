@@ -21,8 +21,9 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/common.css">
   <link rel="stylesheet" href="/css/main.css">
-
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
 </head>
 
 <body>
@@ -155,9 +156,9 @@
         <p class="desc">WWF와 함께 지구를 위해 할 수 있는 실천 방법은 많이 있습니다.</p>
       </div>
       <div class="activity-tabmenu">
-        <div class="activity-tabmenu1">
-          <strong class="activity-tabmenu-btn"><span>생활실천</span></strong>
-          <ul class="activity-tabmenu-box">
+        <div class="activity-tabmenu1 tabmenu1">
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>생활실천</span></strong>
+          <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">전 세계 배출량의 약 10%에 달합니다.</a></h4>
               <p><a href="#">특히, 전체 생산되는 식량의 약 40%는 단 한 번도 먹지 않은 상태로 버려지고 있습니다.</a></p>
@@ -178,9 +179,9 @@
             </li>
           </ul>
         </div>
-        <div class="activity-tabmenu2">
-          <strong class="activity-tabmenu-btn"><span>어스아워</span></strong>
-          <ul class="activity-tabmenu-box">
+        <div class="activity-tabmenu2 tabmenu2">
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>어스아워</span></strong>
+          <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">소등</a></h4>
               <p><a href="#">매년 3월 마지막 토요일 저녁 8시 30분부터 1시간 동안 불필요한 전등 및 불을소등해 주세요.</a></p>
@@ -201,9 +202,9 @@
             </li>
           </ul>
         </div>
-        <div class="activity-tabmenu3">
-          <strong class="activity-tabmenu-btn"><span>기업활동</span></strong>
-          <ul class="activity-tabmenu-box">
+        <div class="activity-tabmenu3 tabmenu3">
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>기업활동</span></strong>
+          <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">파트너십 연례보고서 2022</a></h4>
               <p><a href="#">WWF는 지구의 자원과 자연을 직접적으로 위협하는 요인들을 줄이기 위해 영향력 있는 기업들과 협력하고 있다.</a></p>
@@ -345,8 +346,8 @@
       <div class="news-wrap clearfix">
         <div class="news-notice">
           <div class="news-notice-tabmenu1">
-            <span class="news-notice-tabmenu-btn">언론보도</span>
-            <ul class="news-notice-tabmenu-box">
+            <span class="news-notice-tabmenu-btn tabmenu-tit2">언론보도</span>
+            <ul class="news-notice-tabmenu-box tabmenu-box2">
               <li class="news-notice-tabmenu-content">
                 <strong>[입장문] WWF “COP27, 기후 재앙에 맞서는 돌파구 되어야”</strong>
                 <span>06 Nov 2022</span>
@@ -382,8 +383,8 @@
             </ul>
           </div>
           <div class="news-notice-tabmenu2">
-            <span class="news-notice-tabmenu-btn">최신소식</span>
-            <ul>
+            <span class="news-notice-tabmenu-btn tabmenu-tit2">최신소식</span>
+            <ul class="news-notice-tabmenu-box tabmenu-box2">
               <li class="news-notice-tabmenu-content">
                 <strong>지구, 같이 읽을까요?챌린지- 지구와 친해지는 7일</strong>
                 <span>15 Nov 2022</span>
@@ -419,8 +420,8 @@
             </ul>
           </div>
           <div class="news-notice-tabmenu3">
-            <span class="news-notice-tabmenu-btn">판다메일</span>
-            <ul>
+            <span class="news-notice-tabmenu-btn tabmenu-tit2">판다메일</span>
+            <ul class="news-notice-tabmenu-box tabmenu-box2">
               <li class="news-notice-tabmenu-content">
                 <strong>2022년 11월 판다메일</strong>
                 <span>31 Oct 2022</span>
@@ -455,15 +456,16 @@
               </li>
             </ul>
           </div>
+          <span class="material-symbols-outlined">add</span>
         </div>
         <div class="news-subscription">
           <strong>뉴스레터 구독하기</strong>
           <p>WWF 뉴스레터를 구독하고 최신 소식을 받아보세요.<br>입력한 메일 주소로 WWF 뉴스레터를 받아보실 수 있습니다.</p>
-          <div class="news-subscription-email">
-            <input type="text">
-            <label for="">이메일 주소</label>
-            <a href="#">구독신청</a>
-          </div>
+          <form action="" class="news-subscription-email">
+            <label for="e-mail">이메일 주소</label>
+            <input type="text" id="e-mail">
+            <input type="submit" value="구독신청">
+          </form>
         </div>
       </div>
     </div>
@@ -496,6 +498,8 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   <script>
     var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 1,
@@ -534,6 +538,19 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+    });
+
+    $(function(){    
+      $('.tabmenu-tit1').on('click' , function(){
+        $('.tabmenu-box1').hide();
+        $(this).next().fadeIn();
+      })
+    });
+    $(function(){    
+      $('.tabmenu-tit2').on('click' , function(){
+        $('.tabmenu-box2').hide();
+        $(this).next().fadeIn();
+      })
     });
   </script>
 </body>

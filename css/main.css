@@ -96,6 +96,8 @@
   position: absolute; left: 0; top: 0;
 }
 .activity-tabmenu-btn{
+  display: block;
+  width: 100px; height: 30px;
   line-height: 20px;
   position: absolute; top: -50px;
 }
@@ -115,8 +117,9 @@
   width: 350px; height: 200px;
   padding: 300px 30px 0;
   line-height: 30px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(255,255,255,1); background-repeat: no-repeat;
   position: relative;
+  transition: all 0.3s;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
 }
 .activity-tabmenu-box li + li{
@@ -153,21 +156,24 @@
 .activity-tabmenu-box li > a{
   font-weight: 100; font-size: 14px; line-height: 20px; color: #999;
 }
+.activity-tabmenu2 .activity-tabmenu-box{display: none;}
+.activity-tabmenu3 .activity-tabmenu-box{display: none;}
 .activity-tabmenu1 .activity-tabmenu-btn{left: 0;}
 .activity-tabmenu2 .activity-tabmenu-btn{left: 120px;}
 .activity-tabmenu3 .activity-tabmenu-btn{left: 240px;}
-.activity-tabmenu1 li:nth-child(1){background: url(/img/main/activity-chimney.png) no-repeat;}
-.activity-tabmenu1 li:nth-child(2){background: url(/img/main/activity-plastic.png) no-repeat;}
-.activity-tabmenu1 li:nth-child(3){background: url(/img/main/activity-water.png) no-repeat;}
-.activity-tabmenu2 li:nth-child(1){background: url(/img/main/activity-off.png) no-repeat;}
-.activity-tabmenu2 li:nth-child(2){background: url(/img/main/activity-together60.png) no-repeat;}
-.activity-tabmenu2 li:nth-child(3){background: url(/img/main/activity-practice.png) no-repeat;}
-.activity-tabmenu3 li:nth-child(1){background: url(/img/main/activity-report2022.png) no-repeat;}
-.activity-tabmenu3 li:nth-child(2){background: url(/img/main/activity-result.png) no-repeat;}
-.activity-tabmenu3 li:nth-child(3){background: url(/img/main/activity-psi.png) no-repeat;}
-/* .activity-tabmenu1 ul{opacity: 0;} */
-.activity-tabmenu2 ul{opacity: 0;}
-.activity-tabmenu3 ul{opacity: 0;}
+.activity-tabmenu1 li:nth-child(1){background-image: url(/img/main/activity-chimney.png);}
+.activity-tabmenu1 li:nth-child(2){background-image: url(/img/main/activity-plastic.png);}
+.activity-tabmenu1 li:nth-child(3){background-image: url(/img/main/activity-water.png);}
+.activity-tabmenu2 li:nth-child(1){background-image: url(/img/main/activity-off.png);}
+.activity-tabmenu2 li:nth-child(2){background-image: url(/img/main/activity-together60.png);}
+.activity-tabmenu2 li:nth-child(3){background-image: url(/img/main/activity-practice.png);}
+.activity-tabmenu3 li:nth-child(1){background-image: url(/img/main/activity-report2022.png);}
+.activity-tabmenu3 li:nth-child(2){background-image: url(/img/main/activity-result.png);}
+.activity-tabmenu3 li:nth-child(3){background-image: url(/img/main/activity-psi.png)  ;}
+.activity-tabmenu-btn:hover{color: #f90;}
+.activity-tabmenu-box li:hover a{color: #fff;}
+.activity-tabmenu-box li:hover span{color: #fff;}
+.activity-tabmenu-box li:hover{background-color: rgba(255,153,0,1);}
 /* ACTIVITY - E */
 /* CAMPAIGN - S */
 .campaign{background-color: #eee;}
@@ -312,23 +318,21 @@
 .together-btn a:hover{background-color: #f90;}
 /* TOGETHER - E */
 /* NEWS - S */
-.news{}
-.news .sec-header{}
-.news-wrap{}
 .news-notice{
   float: left;
   position: relative;
 }
 .news-notice > div{
-  width: 630px; height: 480px;
+  height: 480px;
   position: absolute; left: 0; top: 0;
 }
 .news-notice > div > span{
   width: 190px; height: 45px;
+  line-height: 45px; text-align: center;
   background-color: #eee;
   position: absolute; top: -50px;
+  transition: all 0.3s;
 }
-.news-notice .news-notice-tabmenu1{}
 .news-notice .news-notice-tabmenu1 span{
   left: 0;
 }
@@ -338,21 +342,77 @@
 .news-notice .news-notice-tabmenu3 span{
   left: 390px;
 }
-.news-notice .news-notice-tabmenu1 ul{}
-.news-notice .news-notice-tabmenu1 ul li{}
-.news-notice .news-notice-tabmenu1 ul li strong{}
-.news-notice .news-notice-tabmenu1 ul li span{}
+.news-notice .material-symbols-outlined{
+  width: 45px; height: 45px;
+  font-size: 40px; line-height: 45px; color: #555; text-align: center;
+  background-color: #eee;
+  position: absolute; left: 585px; top: -50px;
+  transition: all 0.3s;
+}
+.news-notice-tabmenu-box li{
+  float: left;
+  width: 620px;
+  padding: 0 5px;
+  line-height: 59px;
+  border-bottom: 1px solid #eee;
+}
+.news-notice-tabmenu-box li strong{
+  display: block;
+  float: left;
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-notice-tabmenu-box li span{
+  float: right;
+  font-weight: 300; font-size: 14px; color: #777;
+}
+.news-notice .news-notice-tabmenu2 ul{display: none;}
+.news-notice .news-notice-tabmenu3 ul{display: none;}
 .news-subscription{
   float: right;
-  width: 630px; height: 480px;
+  width: 630px; height: 430px;
+  padding-top: 50px;
   text-align: center;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
 }
-.news-subscription strong{}
-.news-subscription span{}
-.news-subscription .news-subscription-email{}
-.news-subscription .news-subscription-email input{}
-.news-subscription .news-subscription-email label{}
-.news-subscription .news-subscription-email a{}
+.news-subscription strong{
+  display: block;
+  margin-bottom: 30px;
+  font-weight: 700; font-size: 24px; color: #333;
+}
+.news-subscription p{
+  display: block;
+  margin-bottom: 90px;
+  font-weight: 300; color: #555;
+}
+.news-subscription .news-subscription-email label{
+  display: block;
+  font-weight: 100; font-size: 14px; line-height: 30px; color: #777;
+}
+.news-subscription .news-subscription-email input[type="text"]{
+  display: block;
+  width: 430px; height: 60px;
+  margin: 0 auto 20px;
+  font-weight: 400; font-size: 18px; line-height: 60px; text-align: center;
+  border: 0;
+  background-color: #eee;
+}
+.news-subscription .news-subscription-email input[type="submit"]{
+  display: block;
+  width: 430px; height: 60px;
+  margin: 0 auto;
+  font-weight: 500; font-size: 24px; line-height: 60px; color: #fff;
+  background-color: #f90;
+}
+.news-notice > div > span:hover{
+  color: #fff;
+  background-color: #f90;
+}
+.news-notice .material-symbols-outlined:hover{
+  color: #fff;
+  background-color: #f90;
+}
 /* NEWS - E */
 /* MAIN - E */
