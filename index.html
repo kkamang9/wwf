@@ -21,8 +21,9 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/common.css">
   <link rel="stylesheet" href="/css/main.css">
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
 </head>
 
@@ -35,11 +36,6 @@
       <h1 class="logo"><a href="#">WWF KOREA</a></h1>
       <div class="gnb">
         <h2 class="hidden">메인메뉴</h2>
-        <dl class="gnb-tit">
-          <dt>GREEN TIP!</dt>
-          <dd>이미지</dd>
-          <dd>소중한 지구를 지키는 많은 방법들</dd>
-        </dl>
         <ul>
           <li class="depth1">
             <a href="/sub/sub1-1.html">소개</a>
@@ -50,6 +46,10 @@
               <li><a href="/sub/sub1-1.html">인재채용</a></li>
               <li><a href="/sub/sub1-1.html">자원봉사</a></li>
             </ul>
+            <dl class="gnb-tit">
+              <dt><a href="#">GREEN TIP!</a></dt>
+              <dd><a href="#">소중한 지구를 지키는<br>많은 방법들</a></dd>
+            </dl>
           </li>
           <li class="depth1">
             <a href="#">활동</a>
@@ -97,12 +97,14 @@
         <p class="gnb-bg"></p>
       </div>
       <div class="tnb">
-        <a href="#" class="tnb-menu">자주묻는 질문</a>
-        <ul class="tnb-login">
-          <li><a href="#">로그인</a></li>
-          <li><a href="#">마이페이지</a></li>
-          <li><a href="#">로그아웃</a></li>
-        </ul>
+        <div class="tnb-menu">
+          <p><a href="#">자주묻는 질문</a></p>
+          <ul class="tnb-login">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">마이페이지</a></li>
+            <li><a href="#">로그아웃</a></li>
+          </ul>
+        </div>
         <a href="#" class="tnb-donate">후원하기</a>
       </div>
     </div>
@@ -138,7 +140,7 @@
             <div class="inner">
               <strong>FUTURE<span>BUILDING</span></strong>
               <p>IN WHICH PEOPLE LIVE IN HARMONY WITH NATURE</p>
-              <em>WWF<span>와 함께 만드는<br>사람과 자연이 조화로운 </span>미래</em>
+              <em>WWF<span>와 함께 만드는</span></em><em><span>사람과 자연이 조화로운 </span>미래</em>
               <a href="#">MORE</a>
             </div>
           </div>
@@ -157,7 +159,7 @@
       </div>
       <div class="activity-tabmenu">
         <div class="activity-tabmenu1 tabmenu1">
-          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>생활실천</span></strong>
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><em>생활실천</em><span class="material-symbols-outlined">add_circle</span></strong>
           <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">전 세계 배출량의 약 10%에 달합니다.</a></h4>
@@ -180,7 +182,7 @@
           </ul>
         </div>
         <div class="activity-tabmenu2 tabmenu2">
-          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>어스아워</span></strong>
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><em>어스아워</em><span class="material-symbols-outlined">add_circle</span></strong>
           <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">소등</a></h4>
@@ -203,7 +205,7 @@
           </ul>
         </div>
         <div class="activity-tabmenu3 tabmenu3">
-          <strong class="activity-tabmenu-btn tabmenu-tit1"><span>기업활동</span></strong>
+          <strong class="activity-tabmenu-btn tabmenu-tit1"><em>기업활동</em><span class="material-symbols-outlined">add_circle</span></strong>
           <ul class="activity-tabmenu-box tabmenu-box1">
             <li class="activity-list">
               <h4><a href="#">파트너십 연례보고서 2022</a></h4>
@@ -472,27 +474,36 @@
   </div>  
   <div id="footer">
     <div class="inner">
-      <h2 class="f-logo">WWF KOREA</h2>
-      <ul class="f-sns">
-        <li>FOLLOW US</li>
-        <li><a href="#">페이스북</a></li>
-        <li><a href="#">인스타그램</a></li>
-        <li><a href="#">트위터</a></li>
-        <li><a href="#">유튜브</a></li>
-      </ul>
-      <div class="f-copy">
-        <em>재단법인 한국세계자연기금</em>
-        <ul class="clearfix">
-          <li>대표자 홍정욱</li>
-          <li>고유번호 101-82-23485</li>
-          <li>주소<address>서울특별시 종로구 종로 47 (공평동) SC제일은행본점빌딩 15층 (재) 한국세계자연기금</address></li>
-          <li>대표전화 02-722-1601</li>
-          <li>후원 문의 members@wwfkorea.or.kr</li>
-          <li>기업 문의 partnership@wwfkorea.or.kr</li>
-          <li>보 및 마케팅 문의 marketing@wwfkorea.or.kr</li>
-          <li>기타 문의 info@wwfkorea.or.kr</li>
+      <h2 class="f-logo"><a href="#">WWF KOREA</a></h2>
+      <div class="f-wrap">
+        <ul class="f-menu">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">사이트맵</a></li>
+          <li><a href="#">뉴스래터신청</a></li>
         </ul>
-        <p class="f-copy-copy">© 2021 WWF - World Wide Fund For Nature (also known as World Wildlife Fund). Creative Commons licence.</p>
+        <div class="f-sns">
+          <strong>FOLLOW US</strong>
+          <ul>
+            <li><a href="#">페이스북</a></li>
+            <li><a href="#">인스타그램</a></li>
+            <li><a href="#">트위터</a></li>
+            <li><a href="#">유튜브</a></li>
+          </ul>
+        </div>
+        <div class="f-copy">
+          <ul class="clearfix">
+            <li>대표자 홍정욱</li>
+            <li>고유번호 101-82-23485</li>
+            <li>주소<address>서울특별시 종로구 종로 47 (공평동) SC제일은행본점빌딩 15층 (재) 한국세계자연기금</address></li>
+            <li>대표전화 02-722-1601</li>
+            <li>후원 문의 members@wwfkorea.or.kr</li>
+            <li>기업 문의 partnership@wwfkorea.or.kr</li>
+            <li>홍보 및 마케팅 문의 marketing@wwfkorea.or.kr</li>
+            <li>기타 문의 info@wwfkorea.or.kr</li>
+          </ul>
+          <p class="f-copy-copy">© 2021 WWF - World Wide Fund For Nature (also known as World Wildlife Fund). Creative Commons licence.</p>
+        </div>
       </div>
     </div>
   </div>
