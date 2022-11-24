@@ -1,14 +1,7 @@
 @charset "UTF-8";
 
 /* MAINCOMMON - S */
-.sec{
-  padding: 100px 0;
-}
-.sec-header .tit{font-weight: 500; font-size: 50px; line-height: 60px; color: #111;}
-.sec-header .desc{
-  font-weight: 100; font-size: 16px; line-height: 24px; color: #777;
-  margin-bottom: 50px;
-}
+
 /* MAINCOMMON - E */
 
 /* MAIN - S */
