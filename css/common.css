@@ -1,22 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
 /* font-family: 'Noto Sans KR', sans-serif; */
-
-/* 
-속성순서
-1.display 및 & 레이아웃 관련
-2.크기
-3.마진 패딩
-4.보더
-5.텍스트
-6.배경
-7.포지션
-8.기타등등
-*/
-
-/* FONT축약 style variant weight size/line-hight family */
-/* font축약형으로 사용시 size와 family는 필수속성 */
 
 /* COMMON - S */
 body{font: 18px/1.2em 'Noto Sans KR', sans-serif, '돋움', dotum, AppleGothic, sans-serif; color: #555; letter-spacing: -1px;}
@@ -35,7 +19,7 @@ img {vertical-align: top;}
 .sec{padding: 100px 0;}
 .sec-header .tit{font-weight: 500; font-size: 50px; line-height: 60px; color: #111;}
 .sec-header .desc{
-  font-weight: 100; font-size: 16px; line-height: 24px; color: #777;
+  font-weight: 300; font-size: 16px; line-height: 24px; color: #777;
   margin-bottom: 50px;
 }
 /* COMMON - E */
