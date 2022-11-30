@@ -34,7 +34,7 @@
   margin-bottom: 30px;
   font-weight: 700; font-size: 48px; line-height: 55px;
 }
-.visual .slide1{background-image: url(/img/main/visual-racoon.png);}
+.visual .slide1{background-image: url(../img/main/visual-racoon.png);}
 .visual .slide1 strong{
   display: block;
   margin-bottom: -30px;
@@ -46,7 +46,7 @@
   display: block;
   margin-bottom: 100px;
 }
-.visual .slide2{background-image: url(/img/main/visual-plokkingrun.png);}
+.visual .slide2{background-image: url(../img/main/visual-plokkingrun.png);}
 .visual .slide2 .inner > span{
   display: block;
   margin: -20px 10px;
@@ -61,7 +61,7 @@
   font-size: 100px;
   margin-top: -30px;
 }
-.visual .slide3{background-image: url(/img/main/visual-polarbear.png);}
+.visual .slide3{background-image: url(../img/main/visual-polarbear.png);}
 .visual .slide3 strong{
   display: block;
   margin: 0 0 -25px -10px;}
@@ -158,15 +158,15 @@
 .activity-tabmenu1 .activity-tabmenu-btn{left: 0;}
 .activity-tabmenu2 .activity-tabmenu-btn{left: 120px;}
 .activity-tabmenu3 .activity-tabmenu-btn{left: 240px;}
-.activity-tabmenu1 li:nth-child(1){background-image: url(/img/main/activity-chimney.png);}
-.activity-tabmenu1 li:nth-child(2){background-image: url(/img/main/activity-plastic.png);}
-.activity-tabmenu1 li:nth-child(3){background-image: url(/img/main/activity-water.png);}
-.activity-tabmenu2 li:nth-child(1){background-image: url(/img/main/activity-off.png);}
-.activity-tabmenu2 li:nth-child(2){background-image: url(/img/main/activity-together60.png);}
-.activity-tabmenu2 li:nth-child(3){background-image: url(/img/main/activity-practice.png);}
-.activity-tabmenu3 li:nth-child(1){background-image: url(/img/main/activity-report2022.png);}
-.activity-tabmenu3 li:nth-child(2){background-image: url(/img/main/activity-result.png);}
-.activity-tabmenu3 li:nth-child(3){background-image: url(/img/main/activity-psi.png)  ;}
+.activity-tabmenu1 li:nth-child(1){background-image: url(../img/main/activity-chimney.png);}
+.activity-tabmenu1 li:nth-child(2){background-image: url(../img/main/activity-plastic.png);}
+.activity-tabmenu1 li:nth-child(3){background-image: url(../img/main/activity-water.png);}
+.activity-tabmenu2 li:nth-child(1){background-image: url(../img/main/activity-off.png);}
+.activity-tabmenu2 li:nth-child(2){background-image: url(../img/main/activity-together60.png);}
+.activity-tabmenu2 li:nth-child(3){background-image: url(../img/main/activity-practice.png);}
+.activity-tabmenu3 li:nth-child(1){background-image: url(../img/main/activity-report2022.png);}
+.activity-tabmenu3 li:nth-child(2){background-image: url(../img/main/activity-result.png);}
+.activity-tabmenu3 li:nth-child(3){background-image: url(../img/main/activity-psi.png)  ;}
 .activity-tabmenu-btn:hover{color: #f90;}
 .activity-tabmenu-box li:hover a{color: #fff;}
 .activity-tabmenu-box li:hover span{color: #fff;}
@@ -202,13 +202,13 @@
   display: block; float: left;
   height: 70px;
   margin-right: 30px;
-  background-image: url(/img/main/campaign-icon.png);
+  background-image: url(../img/main/campaign-icon.png);
 }
 .campaign-hovermenu li a h4:after{content: "";
   display: block; float: right;
   width: 40px; height: 40px;
   margin-top: 15px;
-  background-image: url(/img/main/campaign-rightarrow.png);
+  background-image: url(../img/main/campaign-rightarrow.png);
   opacity: 0;
   transition: all 0.4s;
 }
@@ -235,13 +235,13 @@
   background-color: rgba(255,153,0,1);
   left: -610px;
 }
-.campaign-hovermenu li a.on h4:before{background-image: url(/img/main/campaign-icon-white.png);}
+.campaign-hovermenu li a.on h4:before{background-image: url(../img/main/campaign-icon-white.png);}
 .campaign-hovermenu li a.on h4:after , .campaign-hovermenu li a.on ~ p{opacity: 1;}
 .campaign-hovermenu li a:hover{
   background-color: rgba(255,153,0,1);
   left: -610px;
 }
-.campaign-hovermenu li a:hover h4:before{background-image: url(/img/main/campaign-icon-white.png);}
+.campaign-hovermenu li a:hover h4:before{background-image: url(../img/main/campaign-icon-white.png);}
 .campaign-hovermenu li a:hover{color: #fff;}
 .campaign-hovermenu li a:hover h4:after , .campaign-hovermenu li a:hover ~ p{opacity: 1;}
 .campaign-hovermenu li:nth-child(-n+3):hover ~ .campaign-hovermenu1{background-color: rgba(255,153,0,0);}
@@ -281,12 +281,12 @@
   font-weight: 400; line-height: 25px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.field .aticle1 a:before{background-image: url(/img/main/field-climate.png);}
-.field .aticle2 a:before{background-image: url(/img/main/field-ocean.png);}
-.field .aticle3 a:before{background-image: url(/img/main/field-wild.png);}
-.field .aticle4 a:before{background-image: url(/img/main/field-food.png);}
-.field .aticle5 a:before{background-image: url(/img/main/field-freshwater.png);}
-.field .aticle6 a:before{background-image: url(/img/main/field-forest.png);}
+.field .aticle1 a:before{background-image: url(../img/main/field-climate.png);}
+.field .aticle2 a:before{background-image: url(../img/main/field-ocean.png);}
+.field .aticle3 a:before{background-image: url(../img/main/field-wild.png);}
+.field .aticle4 a:before{background-image: url(../img/main/field-food.png);}
+.field .aticle5 a:before{background-image: url(../img/main/field-freshwater.png);}
+.field .aticle6 a:before{background-image: url(../img/main/field-forest.png);}
 .field .swiper-slide a:hover{background-color: rgba(255,153,0,1); color: #fff;}
 .field .swiper-slide a:hover:before{background-size: 110%;}
 .field .swiper-button-wrap{
@@ -309,14 +309,8 @@
 .together{
   min-width: 1280px;
   text-align: center;
-  background: url(/img/main/together.png) no-repeat center center;
+  background: url(../img/main/together.png) no-repeat center center;
   position: relative;
-}
-.together:before{content: "";
-  display: block;
-  width: 100%; height: 600px; min-width: 1280px;
-  background-color: rgba(0,0,0,0.1);
-  position: absolute; left: 0; top: 0;
 }
 .together .sec-header .tit , .together .sec-header .desc , .together-desc , .together-btn{color: #fff;}
 .together .sec-header{
@@ -345,7 +339,7 @@
 .together-btn a span:after{content: "";
   display: block; float: right;
   width: 12px; height: 30px;
-  background: url(/img/icon/right-arrow-small.png) no-repeat center center;
+  background: url(../img/icon/right-arrow-small.png) no-repeat center center;
 }
 .together-btn .together-btn-sponsor{margin-right: 30px;}
 .together-btn a:hover{background-color: #f90;}

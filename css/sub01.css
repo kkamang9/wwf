@@ -1,54 +1,9 @@
 @charset "UTF-8";
 
-/* SUB-COMMON - S */
-.visual{
-  width: 100%; height: 400px; min-width: 1280px;
-  background-repeat: no-repeat; background-position: center center;
-}
-.sub-tit{
-  width: 1280px;
-  margin-bottom: 30px; padding-top: 160px;
-  text-align: center;
-}
-.sub-tit .tit{
-  margin-bottom: 10px;
-  font-weight: 700; font-size: 60px; line-height: 70px; color: #111;
-}
-.sub-tit .desc{color: #777;}
-.sec-header{margin-bottom: 100px;}
-/* SUB-COMMON - E */
-
 /* MAIN - S */
 /* VISUAL - S */
-.visual{
-  background-image: url(/img/sub01/sub-visual.png);
-}
-.visual .inner{
-  padding-top: 200px;
-  text-align: center;
-}
-.visual strong{font-weight: 500; font-size: 40px; color: #fff;}
+.visual{background-image: url(../img/sub01/sub-visual.png);}
 /* VISUAL - E */
-/* LNB - S */
-.lnb{
-  width: 100%; height: 60px; min-width: 1280px;
-  background-color: #333;
-}
-.lnb .inner{text-align: center;}
-.lnb .lnb-list{display: inline-block;}
-.lnb .lnb-list li{
-  float: left;
-}
-.lnb .inner li a{
-  display: block;
-  width: 120px;
-  /* padding: 0 20px; */
-  font-size: 20px; line-height: 60px; color: #fff;
-  transition: all 0.3s;
-}
-.lnb .inner li a:hover{font-size: 24px; color: #f90;}
-.lnb .inner li.on a{font-size: 24px; color: #f90;}
-/* LNB - E */
 /* MISSION - S */
 .mission-desc{line-height: 30px;}
 .mission-desc p{margin-bottom: 30px; padding-top: 80px;}
@@ -64,7 +19,7 @@
 .mission-desc:before{content: "";
   display: block; float: right;
   width: 600px; height: 500px; 
-  background-image: url(/img/sub01/mission-dolphin.png);
+  background-image: url(../img/sub01/mission-dolphin.png);
 }
 /* MISSION - E */
 /* TRANSPARENCY - S */
@@ -121,7 +76,7 @@
 .transparency-contents li div:before{content: "";
   display: block;
   height: 70px;
-  background-image: url(/img/sub01/transparency-icon.png);
+  background-image: url(../img/sub01/transparency-icon.png);
   position: absolute; top: 25px; z-index: 10;
 }
 .transparency-contents li:nth-child(1) div:before{
@@ -172,7 +127,7 @@
   display: block;
   height: 80px;
   margin: 0 auto;
-  background-image: url(/img/sub01/value-icon.png);
+  background-image: url(../img/sub01/value-icon.png);
 }
 .value-wrap .value-aticle .value-aticle-desc{
   line-height: 30px; text-align: center;
